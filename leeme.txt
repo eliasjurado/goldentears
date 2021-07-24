@@ -1,0 +1,26 @@
+Información del Hosting:
+
+Dominio:	hostinger.es
+Usuario:	goldentearsrecords@gmail.com
+Clave:		abnerabdhala
+
+--------------------------------------------
+
+Dominio:	goldentearsrecords.pe.hu
+Host FTP	ftp.goldentearsrecords.pe.hu 
+IP FTP		31.170.166.72
+Puerto FTP	21
+Usuario FTP	u446248809
+Contraseña FTP	abnerabdhala
+Carpeta*	public_html
+
+--------------------------------------------
+
+*Carpeta dónde Cargar Archivos cuando se accede a través de FileZilla.
+ Descargar Filezilla: https://download.filezilla-project.org/client/FileZilla_3.25.2_win64-setup_bundled2.exe
+
+---------------------------------------------
+
+Correo creado para la recepción del formulario:
+	user: contact.goldentearsrecords@gmail.com
+	pass: abnerabdhala

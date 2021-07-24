@@ -1,0 +1,239 @@
+﻿
+/* ESTILOS NORMALES (para móviles en vertical)
+   ========================================================================= */
+
+body{
+	background-image:url(../img/fondo.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:repeat-x;
+}
+.subtitle{
+	color:#5D5F71;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	line-height: 60%;
+	
+}
+p, form, #enviar{
+	color:#FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/* CONTENEDOR
+   ========== */
+ 
+#contenedor{
+	margin:8% 8% 18% 8%;
+	width: 84%;
+	min-width: 240px;
+	box-sizing: border-box;
+}
+	#imgcentral{
+		position: absolute;
+		width:75%;
+		margin: 16% 3% 3% 3%;
+		opacity: 0.3;
+	}
+header{
+	float:left;
+	text-align: center;
+	margin: 5% 0% 12% 0%;
+}
+	#imglogo{
+		width:90%;
+		border-radius: 15%;
+	}
+.caja{
+	float: center;
+	margin: 5% 5% 5% 5%;
+}
+table{
+	width: 100%;
+	margin-top: 16%;
+}
+form .subtitle, article .subtitle{
+	text-align: center;
+}
+input{
+	width: 100%;
+	margin-bottom: 2%;
+	background: none;
+	border: 1px grey ridge;
+	padding: 1% 1% 1% 1%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16.5px;
+	color:grey;
+}
+#message{
+	width: 100%;
+	margin-bottom: 2%;
+	background: none;
+	border: 1px grey ridge;
+	padding: 1% 1% 1% 1%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16.5px;
+	color:grey;
+	padding-bottom: 80px;
+	overflow:hidden;/*ocultar scroll*/
+}
+#send{
+	float:right;
+	width:25%;
+}
+#radio{
+	width:89%;
+	float: left;
+}
+#radio iframe{
+	padding: 15% 12% 17% 5%;
+}
+#redes{
+	
+	float: left;
+	width:100%;
+	text-align: center;
+}
+#redes img{
+	float: left;
+	width: 7.2%;
+	border-radius: 25%;
+	margin: 2% 0% 8% 1.5%;
+}
+#copyright p{
+	margin:0% 28% 5% 28%;
+	float:left;
+	opacity:0.4;
+	font-size: 13px;
+}
+#copyright a{
+	color:white;
+}
+
+ 
+/* RESPONSIVE
+   ========================================================================= */
+
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+	#contenedor{
+		background: green;
+		width: 90%;
+		margin:8% 3% 2% 5%;		
+	}
+
+	#imgcentral{
+		width:39%;
+		margin: -2% 0% 3% 52%;
+		opacity: 0.15;
+		-ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Chrome, Safari, Opera */
+    transform: rotate(-15deg);
+	}
+	header{
+	float:left;
+	text-align: left;
+	margin: 0% 0% 2% 0%;
+	}
+		#imglogo{
+		width:55%;
+		border-radius: 15%;
+		}		
+	.caja{
+	float: left;
+	width: 46%;
+	margin: 2% 2% 2% 2%;
+	}
+	table{
+	margin-top: 0%;
+	}
+	#radio{
+		width:40%;
+		margin:2.3% 0% 0% 0%;
+	}
+
+	#redes{
+		padding: 7% 0% 1.6% 0%;
+		width:49%;
+		margin-left:11%;
+	}
+	#redes img{
+		width:8%;
+		margin:0.5% 0.5% 4% 0.5%;
+	}
+	#copyright p{
+		margin:5% 35% 5% 35%;
+	}
+}
+ 
+/* Tablets en horizonal y escritorios normales
+   ------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+	#contenedor{
+		width:94%;
+	}
+	header{
+		width:100%;
+	}
+	#imglogo{
+		width:37%;
+		margin-left: 2%;
+		}
+	#imgcentral{
+		width:39%;
+		margin: 5% 20% 3% 20%;
+		opacity: 0.2;
+		-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+	}	
+	.caja{
+	float: left;
+	width: 30%;
+	margin: 0% 2% 2% 2%;
+	}
+	form,article{
+		margin-left: 95%;
+		margin-right: -100%;
+	}
+	#radio{
+		width:33%;
+		margin-top:0%;
+	}
+	#redes{
+		width:34%;
+		margin-left: 31%;
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: -5%;
+		padding-top: 4%;
+	}
+	#redes img{
+		width: 8%;
+		margin: 1% 0.5% 1% 0.5% ;
+	}
+}
+ 
+/* Escritorios muy anchos
+   ------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+	#contenedor{
+		width:1200px;
+	}
+	#imgcentral{
+		max-width: 510px;
+	}
+	#copyright a{
+	margin:0% 23% 0% 23%;
+	}
+	form,article{
+		margin-left: 100%;
+		margin-right: -100%;
+	}
+	#copyright p{
+		text-align:center;
+		margin: 2% 25% 2% 35%;
+		width: 30%;
+	}
+}
